@@ -1,0 +1,323 @@
+
+/*Moves the navigation lists to the right of the site*/
+ul {
+    float: right;
+}
+
+
+.text {
+    float: right;
+}
+
+
+/*styles the entire nav bars color, border styling, and removes the overflow*/
+#skip {
+    background-color: #E8D8FF;
+    overflow: hidden;
+    border-color: #2D1136;
+    border-style: solid;
+    border-width: 4px;
+}
+
+/*displays the navigation list items as block, centres the text, gives padding, and changes the text styling*/
+#skip a {
+    display: block;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+/*changes the unordered list to have no style type, gives 0 padding and margin*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/*styles the individual list items, floats them left, inlines it, and changes the font*/
+  li {
+    display: inline;
+    float: left;
+    font-family: 'Kanit', sans-serif;
+  }
+
+/*makes the hover color of the nagivation list item #d39fe2*/
+#skip a:hover {
+    background-color: #d39fe2;
+}
+
+/*makes the active pressing color of the nagivation list item #d39fe2*/
+#skip a:active {
+    background-color: #d39fe2;
+}
+
+/*changes the main paragraph text a different font, colour, size, weight, and gies it padding*/
+p {
+    font-family: 'Kanit', sans-serif;
+    color: #2D1136;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+
+/*adds width, height, and makes the fit cover so that size does not stretch when changing the size on the main banner image*/
+.baking {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+/* add float, width, height, object fit, and padding to the waffles image on the homepage*/
+.waffles {
+    float: right;
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+
+/*styles the search icon with flex and bottom padding*/ 
+.fa-search {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+/*styles the search icon so when you hover, it gives a different colour*/
+.fa-search:hover {
+    color: #fc0ed0;
+}
+
+/*styles the footer so that the background color changes, and gives padding at the top and bottom*/
+footer {
+    background-color: #2D1136;
+    padding-top: 0.11rem;
+    padding-bottom: 0.11rem;
+
+}
+
+/*styles the main section of the site to change the background colour*/
+main {
+    background-color: #E8D8FF;
+}
+
+/*styles all the heading 1s so that the font family changes*/
+h1 {
+    font-family: 'Tilt Warp', cursive;
+}
+
+/*styles the search icon so that its colour changes, and gives it padding left, right, and top*/
+.fa-search {
+    color: #2D1136;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+/*styles the Pastry Square logo so that the width changes, so that it fits in the banner image, and gives it margin and paddign to centre it*/
+.logo {
+    width: 25%;
+    position: absolute;
+    display: block;
+    margin-left: 37%;
+    padding-top: 2rem;
+}
+
+/*styles the logo so that when you hover, the logo spins 3 times in 3 seconds*/
+.logo:hover {
+    transform: rotateY(3turn);
+    transition: transform 3s;
+}
+
+/*styles the first paragraph on the homepage so that ther is padding top and bottom, and so the font-size changes*/
+.lorem1 {
+    padding-top: 2.5rem;
+    font-size: 28px;
+    padding-bottom: 4rem;
+}
+
+/*styles the navtab id so that the font weight becomes bolder on the list items*/
+#navtab {
+    font-weight: bolder;
+}
+
+/*targets the copyright class so that the font size, color, and alignment adjusts accordingly*/
+.copyright {
+    font-size: large;
+    color: #E8D8FF;
+    text-align: center;
+}
+
+
+.imagecredit {
+    font-size: large;
+    color: #E8D8FF;
+    text-align: center;
+
+}
+
+/*targets the unsplash class that has a link to the website so that the font size, colour, and alignment changes*/
+.unsplash {
+    font-size: large;
+    color: #E8D8FF;
+    text-align: center;
+
+}
+
+/*styles the skip link so the colour changes and centres the text*/
+.bringmeup {
+    color: #E8D8FF;
+    text-align: center;
+
+}
+
+/*targets the first of 3 images in the column so that the width, height, object fit, and padding is all adjusted*/
+.pastry1 {
+    width: 30%;
+    height: 350px;
+    object-fit: cover;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+/*targets the second of 3 images in the column so that the width, height, object fit, and padding is all adjusted*/
+
+.pastry2 {
+    width: 30%;
+    height: 350px;
+    object-fit: cover;
+    padding-bottom: 2rem;
+
+
+}
+
+/*targets the third of 3 images in the column so that the width, height, object fit, grid column, and padding is all adjusted*/
+.pastry3 {
+    width: 30%;
+    height: 350px;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+/*adds colour to skip link when you hover over the text*/
+.bringmeup:hover {
+    color: #ff00d4;
+}
+
+/*adds colour to unsplash link in the footer link when you hover over the text*/
+.unsplash:hover {
+    color: #ff00d4;
+}
+
+/*styles the about header so that it is centered, the colour is different, the font size is up, and padding is added*/
+.abouth1 {
+text-align: center;
+color: #2D1136;
+font-size: 3rem;
+padding-top: 2rem;
+padding-bottom: 4rem;
+}
+
+
+/*styles the entire html so that the background colour is styled*/
+html {
+    background-color: #E8D8FF;
+}
+
+/*styles the dessert image in the about page so that the width is lowered, it has flex, centered, and add a drop shadow filter*/
+.circledessert {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    filter: drop-shadow(0 0.2rem 0.25rem);
+
+}
+
+/*styles the dessert image in the about page so that the hover animation grows and scales down*/
+.circledessert:hover {
+    transform: scale(1.20);
+    transition: transform 1.25s;
+    transition-timing-function: ease-out;
+}
+
+/*styles the dessert image in the about page so that the active animation changes the drop shadow colour*/
+.circledessert:active {
+    color: rgb(205, 202, 50);
+}
+
+/*adds an animation to the same image so when you hove away, its scale down in a second*/
+.circledessert {
+    transition: transform 1s 0.5s;
+}
+
+/*styles the contact header in the contact page so that it is centered, colour is changed, and padding is added with font size*/
+.contactheader {
+    text-align: center;
+    color: #2D1136;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+/*styles the submit button in the contact page so teh background colour, colour, font and size, padding, and border is all added and adjusted*/
+button[type="submit"] {
+    background-color: #2D1136;
+    color: #E8D8FF;
+    font-family: 'Tilt Warp', cursive;
+    font-size: large;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+/*styles the hover button so when you hover over the button the background colour changes*/
+button[type="submit"]:hover {
+    background-color: #6b1583;
+}
+
+/*styles of the text and forms in the contact form with padding, border styling, margin, and width*/
+input[type="text"], input[type="email"], textarea {
+    padding: 0.75rem;
+    border-radius: 0.25;
+    border: 3px solid #2D1136;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 650px;
+}
+
+/*changes the text height in the contact form*/
+textarea {
+    height: 300px;
+}
+
+/*styles the label in the contact form with the font family, displaying as block, margin, colour, and size*/
+label {
+    display: block;
+    font-family: 'Tilt Warp', cursive;
+    margin-bottom: 0.75rem;
+    color: #2D1136;
+    font-size: x-large;
+}
+
+/*styles the entire form so it is flex, the flex direction is as column, centered items and content, and padding*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
